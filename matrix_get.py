@@ -15,7 +15,6 @@ def get_matrix_from_input():
     except ValueError:
         print("Ошибка: введите корректные числа")
         return None
-
 def main():
     matrix = get_matrix_from_input()
     if matrix:
