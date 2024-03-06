@@ -1,5 +1,4 @@
 import numpy as np
-
 def get_matrix_from_input():
     try:
         rows = int(input("Введите количество строк матрицы: "))
